@@ -89,7 +89,14 @@ main {
 
 .weather-box .weather {
   color: #FFF;
-  font-size: 48px;
+  font-size: 32px;
   font-weight: 700;
   text-shadow: 3px 3px rgba(50,50,70,0.5);
+}
+.weather-box .high-low {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 500;
+  text-align:center;
+  text-shadow: 3px 3px rgba(50,50,70,.5);
 }
