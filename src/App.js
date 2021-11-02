@@ -62,7 +62,7 @@ function App() {
                 
               </div>
             <div className = 'weather'>Outdoor Conditions: {weather.weather[0].main}</div>
-            <div className = 'high-low'><br /> High/Low Temp for the Area:<br /> {Math.round(weather.main.temp_max)}/{Math.round(weather.main.temp_min)}</div>
+            <div className = 'high-low'><br /> High/Low Temp for the Area:<br /> {Math.round(weather.main.temp_max)} / {Math.round(weather.main.temp_min)} (°f)</div>
           </div>
           </div>
           ):('')}
